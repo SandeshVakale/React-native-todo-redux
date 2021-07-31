@@ -10,9 +10,12 @@ const removeFromTodo = createAction('todo/removeFromTodo');
 export const todoModel = createReducer(initialState, builder => {
   builder
     .addCase(addToTodo, (state, action) => {
-      state.todo = [...state.todo, action.payload];
+      state.todo = [action.payload, ...state.todo];
     })
     .addCase(removeFromTodo, (state, action) => {
-
+      const {payload} = action;
+      state.todo = [...state.todo].filter(function (todo) {
+        return payload.id !== todo.id;
+      });
     });
 });

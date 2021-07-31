@@ -21,7 +21,7 @@ const reducers = combineReducers({
 const persistConfig = {
   key: 'root',
   storage: AsyncStorage,
-  whitelist: ['haircut'],
+  whitelist: ['todoModel'],
 };
 
 const persistedReducer = persistReducer(persistConfig, reducers);
