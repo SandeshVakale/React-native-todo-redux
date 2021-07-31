@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToDoCard component renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "justifyContent": "space-around",
+      "margin": 5,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "borderColor": "gray",
+        "borderRadius": 10,
+        "borderWidth": 1,
+        "justifyContent": "center",
+        "padding": 10,
+        "width": "80%",
+      }
+    }
+  >
+    Hello Test
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <
+      color="rgba(52, 52, 52, 0.8)"
+      icon={
+        Object {
+          "icon": Array [
+            512,
+            512,
+            Array [],
+            "f056",
+            "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zM124 296c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h264c6.6 0 12 5.4 12 12v56c0 6.6-5.4 12-12 12H124z",
+          ],
+          "iconName": "minus-circle",
+          "prefix": "fas",
+        }
+      }
+      size={32}
+    />
+  </View>
+</View>
+`;

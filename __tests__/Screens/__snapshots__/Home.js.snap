@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home screen renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  >
+    <View />
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "bottom": 0,
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+        "position": "absolute",
+        "zIndex": 5,
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      placeholder="Insert your todo!"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "borderColor": "gray",
+          "borderRadius": 10,
+          "borderWidth": 1,
+          "padding": 10,
+          "width": "85%",
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <
+        color="rgba(52, 52, 52, 0.8)"
+        icon={
+          Object {
+            "icon": Array [
+              512,
+              512,
+              Array [],
+              "f055",
+              "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm144 276c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92h-92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z",
+            ],
+            "iconName": "plus-circle",
+            "prefix": "fas",
+          }
+        }
+        size={32}
+      />
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
